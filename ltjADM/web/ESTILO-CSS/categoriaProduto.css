@@ -1,0 +1,334 @@
+
+/*-------------------------------------------------------------Categotia de produto------------------------------------------------*/
+
+#conteudoIndividualCateProduto{  
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    background-color:white;
+    margin: 10px auto auto auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infoCodigoCateProduto{
+    width: 20%;
+    height: 100px;
+    background-color: whitesmoke;
+    display: inline-table;
+}
+
+.infoCodigoCateProduto h2{
+    font-size: 17px;
+    border-radius: 10px 10px 0px 0px;
+    background:rgb(40,51,57);
+    color: whitesmoke;
+}
+
+.infoCodigoCateProduto p{
+    margin-top: 5px;
+}
+
+.infoIndividualCateProduto{
+    width: 30%;
+    height:100px;
+    background-color: whitesmoke;
+    display: inline-table;
+}
+
+.infoIndividualCateProduto h2{
+    font-size: 17px;
+    border-radius: 10px 10px 0px 0px;
+    background:rgb(40,51,57);
+    color: whitesmoke;
+}
+
+.infoIndividualCateProduto p{
+    margin-top: 5px;
+}
+
+.infoIndividualCateProduto img{
+    margin: 15px 10px 0px 0px;
+    cursor: pointer;
+}
+
+/*Filtro pesquisa categoria de produto*/
+
+#modalFiltroCatProd{
+    width: 650px;
+    height: 450px;
+    background-color: white;
+    margin: 140px auto auto auto;
+    display: none;
+}
+
+/*Filtro pesquisa categoria produto painel de controle */
+
+#filtroCatPainelControle{
+    width: 200px;
+    height: 450px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#filtroCatPainelControle h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#filtroCatPainelControle p{
+    margin-top: 100px;
+    color: whitesmoke;
+}
+
+/*Componetes filtro pesquisa*/
+
+#filtroCodigoCatProduto{
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin: 30px 0px 0px 130px;
+    text-align: center;
+}
+
+#filtroCodigoCatProduto input[type="number"]{
+    width: 100%;
+    height: 30px;  
+    text-align: center;
+}
+
+#filtroNomeCatProduto{
+    width: 350px;
+    height: 85px;
+    float: left;
+    margin: 20px auto auto 50px;
+}
+
+#filtroNomeCatProduto textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 70px;
+    max-height: 70px;
+    min-height: 70px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#filtroOrdenarCatProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: 20px auto auto 50px;   
+}
+
+#filtroOrdenarCatProduto select{
+    width: 100%;
+    height: 30px;
+}
+
+#filtroOrdemCatProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: 20px auto auto 50px;  
+}
+
+#filtroBloqueadoCatProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: auto auto auto 50px;  
+}
+
+#filtroBntOperacaoCatProduto{
+    float: left;
+    width: 450px;
+    height: 35px;
+}
+
+#filtroBntOperacaoCatProduto input[type="submit"],#filtroBntOperacaoCatProduto input[type="reset"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 14px;
+}
+
+#filtroBntOperacaoCatProduto input[type="submit"]:hover,#filtroBntOperacaoCatProduto input[type="reset"]:hover{
+    background-color: whitesmoke;
+}
+
+/*----------------------------------------------------Editar categoria produto*/
+
+
+/*Modal edita categoria produto*/
+
+#modalEditCateProd{
+    width: 700px;
+    height: 260px;
+    background-color: white;
+    margin: 200px auto auto auto;
+    display: none;
+}
+
+/*Painel de controle modal edita categoria de produto*/
+
+#editaPainelControleCateProduto{
+    width: 200px;
+    height: 260px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#editaPainelControleCateProduto h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*Componentes form edita categoria produto*/
+
+#editaNomeCateProduto{
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 40px 0px 0px 100px;
+}
+
+#editaNomeCateProduto textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    background-color:whitesmoke;
+    text-align: center;
+}
+
+#editaCaracNomeCateProd{
+    font-size: 11px;
+    display: none;
+}
+
+#editaBntOperacaoCateProduto{
+    float: left;
+    width: 500px;
+    height: 40px;
+    margin-top: 60px;
+}
+
+#editaBntOperacaoCateProduto input[type="submit"],#editaBntOperacaoCateProduto input[type="reset"]{
+    width: 150px;
+    height: 40px;
+    margin-left: 60px;
+}
+
+#editaBntOperacaoCateProduto input[type="submit"]:hover, #editaBntOperacaoCateProduto input[type="reset"]:hover{
+    background-color: whitesmoke;    
+}
+
+
+/*-------------------------------------------------Cadastrar categoria produto*/
+
+/*Modal cadastra categoria produto*/
+
+#modalCadasCateProd{
+    width: 650px;
+    height: 260px;
+    background-color: white;
+    margin: 200px auto auto auto;
+    display: none;
+}
+
+/*Painel de controle modal cadastra categoria produto*/
+
+#cadasPainelControleCateProduto{
+    width: 200px;
+    height: 260px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#cadasPainelControleCateProduto h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*Componentes form cadastrar produto*/
+
+#cadasNomeCateProd{
+    width: 350px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+    margin: 50px 0px 0px 50px;
+}
+
+#cadasNomeCateProd textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#cadasCaracNomeCateProd{
+    font-size: 11px;
+}
+
+#cadasBntOperacaoCateProduto{
+    width: 450px;
+    height: 50px;
+    float: left;
+    margin-top: 70px;
+}
+
+#cadasBntOperacaoCateProduto input[type="submit"],#cadasBntOperacaoCateProduto input[type="reset"]{
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#cadasBntOperacaoCateProduto input[type="submit"]:hover ,#cadasBntOperacaoCateProduto input[type="reset"]:hover{
+    background-color: whitesmoke;
+}
+
+/*Mensagem de blouqueio do produto*/
+
+#modalMsnBlocCatProd{
+    width: 500px;
+    height: 180px;
+    display: none;
+    margin: 200px auto auto auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#modalMsnBlocCatProd h1{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#nomeCateProdBloc{
+    margin-top: 50px;
+}
+
+#msnBntOperacaoCatBlocProduto{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#msnBntOperacaoCatBlocProduto input[type="submit"]{
+    width: 200px;
+    height: 40px;
+}

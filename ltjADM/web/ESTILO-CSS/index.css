@@ -1,0 +1,25 @@
+
+#topo{
+    height: 150px;
+    background:rgb(40,51,57);
+}
+
+#logar{
+    width: 250px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#logar h1{
+    margin-bottom: 40px;
+}
+
+#logar input[type="submit"]{
+    margin-top: 40px;
+}
+
+#logar input[type="text"],input[type="password"]{
+    text-align: center;
+}

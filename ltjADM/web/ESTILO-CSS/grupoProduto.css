@@ -1,0 +1,332 @@
+
+/*-------------------------------------------------------------Grupo de produto---------------------------------------------------*/
+
+#conteudoIndividualGrpProduto{  
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    background-color:white;
+    margin: 10px auto auto auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infoCodigoGrpProduto{
+    width: 20%;
+    height: 100px;
+    background-color: whitesmoke;
+    display: inline-table;
+}
+
+.infoCodigoGrpProduto h2{
+    font-size: 17px;
+    border-radius: 10px 10px 0px 0px;
+    background:rgb(40,51,57);
+    color: whitesmoke;
+}
+
+.infoCodigoGrpProduto p{
+    margin-top: 5px;
+}
+
+.infoIndividualGrpProduto{
+    width: 30%;
+    height:100px;
+    background-color: whitesmoke;
+    display: inline-table;
+}
+
+.infoIndividualGrpProduto h2{
+    font-size: 17px;
+    border-radius: 10px 10px 0px 0px;
+    background:rgb(40,51,57);
+    color: whitesmoke;
+}
+
+.infoIndividualGrpProduto p{
+    margin-top: 5px;
+}
+
+.infoIndividualGrpProduto img{
+    margin: 15px 10px 0px 0px;
+    cursor: pointer;
+}
+
+/*Filtro pesquisa grupo de produto*/
+
+#modalFiltroGrpProd{
+    width: 650px;
+    height: 450px;
+    background-color: white;
+    margin: 140px auto auto auto;
+    display: none;
+}
+
+/*Filtro pesquisa grupo produto painel de controle */
+
+#filtroPainelControleGrpProduto{
+    width: 200px;
+    height: 450px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#filtroPainelControleGrpProduto h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#filtroPainelControleGrpProduto p{
+    margin-top: 100px;
+    color: whitesmoke;
+}
+
+/*Componentes filtro pesquisa*/
+
+#filtroCodigoGrpProduto{
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin: 30px 0px 0px 130px;
+    text-align: center;
+}
+
+#filtroCodigoGrpProduto input[type="number"]{
+    width: 100%;
+    height: 30px;  
+    text-align: center;
+}
+
+#filtroNomeGrpProduto{
+    width: 350px;
+    height: 85px;
+    float: left;
+    margin: 20px auto auto 50px;
+}
+
+#filtroNomeGrpProduto textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 70px;
+    max-height: 70px;
+    min-height: 70px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#filtroOrdenarGrpProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: 20px auto auto 50px;   
+}
+
+#filtroOrdenarGrpProduto select{
+    width: 100%;
+    height: 30px;
+}
+
+#filtroOrdemGrpProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: 20px auto auto 50px;  
+}
+
+#filtroBloqueadoGrpProduto{
+    width: 350px;
+    height: 45px;
+    float: left;
+    margin: auto auto auto 50px;  
+}
+
+#filtroBntOperacaoGrpProduto{
+    float: left;
+    width: 450px;
+    height: 35px;
+}
+
+#filtroBntOperacaoGrpProduto input[type="submit"],#filtroBntOperacaoGrpProduto input[type="reset"]{
+    width: 200px;
+    height: 40px;
+    margin-left: 14px;
+}
+
+#filtroBntOperacaoGrpProduto input[type="submit"]:hover,#filtroBntOperacaoGrpProduto input[type="reset"]:hover{
+    background-color: whitesmoke;
+}
+
+/*--------------------------------------------------------Editar grupo produto*/
+
+
+/*Modal edita produto*/
+
+#modalEditGrpProd{
+    width: 650px;
+    height: 260px;
+    background-color: white;
+    margin: 200px auto auto auto;
+    display: none;
+}
+
+/*Painel de controle modal edita grupo de produto*/
+
+#editaPainelControleGrpProduto{
+    width: 200px;
+    height: 260px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#editaPainelControleGrpProduto h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*Componentes form edita grupo produto*/
+
+#editaNomeGrpProduto{
+    width: 350px;
+    height: 80px;
+    float: left;
+    margin: 50px 0px 0px 50px;
+}
+
+#editaNomeGrpProduto textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#editaNomeGrpProduto label{
+    display: none;
+    font-size: 11px;
+}
+
+#editaBntOperacaoGrpProduto{
+    width: 450px;
+    height: 50px;
+    float: left;
+    margin-top: 70px;
+}
+
+#editaBntOperacaoGrpProduto input[type="submit"],#editaBntOperacaoGrpProduto input[type="reset"]{
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#editaBntOperacaoGrpProduto input[type="submit"]:hover,#editaBntOperacaoGrpProduto input[type="reset"]:hover{
+    background-color: whitesmoke;
+}
+
+/*-----------------------------------------------------Cadastrar grupo produto*/
+
+/*Modal cadastra grupo produto*/
+
+#modalCadasGrpProd{
+    width: 650px;
+    height: 260px;
+    background-color: white;
+    margin: 200px auto auto auto;
+    display: none;
+}
+
+/*Painel de controle modal cadastra grupo produto*/
+
+#cadasPainelControleGrpProduto{
+    width: 200px;
+    height: 260px;
+    background:rgb(40,51,57);
+    float: left;
+    text-align: center;
+}
+
+#cadasPainelControleGrpProduto h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/*Componentes form cadastrar produto*/
+
+#cadasNomeGrpProd{
+    width: 350px;
+    height: 80px;
+    float: left;
+    margin: 50px 0px 0px 50px;
+}
+
+#cadasNomeGrpProd textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#cadasCaracNomeGrpProd{
+    font-size: 11px;    
+}
+
+#cadasBntOperacaoGrpProduto{
+    width: 450px;
+    height: 50px;
+    float: left;
+    margin-top: 70px;
+}
+
+#cadasBntOperacaoGrpProduto input[type="submit"],#cadasBntOperacaoGrpProduto input[type="reset"]{
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+}
+
+#cadasBntOperacaoGrpProduto input[type="submit"]:hover,#cadasBntOperacaoGrpProduto input[type="reset"]:hover{
+    background-color: whitesmoke;
+}
+
+/*Mensagem de blouqueio do produto*/
+
+#msnBlocGrpProd{
+    width: 500px;
+    height: 180px;
+    display: none;
+    margin: 200px auto auto auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#msnBlocGrpProd h1{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#nomeGrpProdBloc{
+    margin-top: 50px;
+}
+
+#bntBlocGrpProduto{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#bntBlocGrpProduto input[type="submit"]{
+    width: 200px;
+    height: 40px;
+}

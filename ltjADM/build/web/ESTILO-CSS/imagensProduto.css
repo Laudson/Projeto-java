@@ -1,0 +1,150 @@
+
+/*------------------------------------------------------------Imagens produtos----------------------------------------------------*/
+
+/*Painel de controle*/
+
+#imgPrincipalPainelControle{
+    width: 100%;
+    height: 100px;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+#imgPrincipalPainelControle label{
+    font-size: 17px;
+    cursor:inherit;
+}
+
+#imgLbNomeAlbum{
+    margin: 100px auto auto auto;
+    text-align: center;
+}
+
+#imgForm{
+    width: 200px;
+    height: auto;
+    margin: 240px auto auto auto;
+    text-align: center;
+}
+
+#imgForm input[type="file"]{
+    display: none;
+}
+
+#imgForm label{
+    font-size: 15px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+#bntImgForm{
+    width: 250px;
+    margin: auto;
+}
+
+#bntImgFormCad{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    top: 20px;
+}
+
+#bntImgFormCad input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+#bntImgFormExc{
+    width: 100%;
+    height: 40px;
+    position: relative;
+    left: 130px;
+    bottom:20px; 
+}
+
+#bntImgFormExc input[type="submit"]{
+    width: 120px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+/*Grade de imagens*/
+
+#imgGradeImagens{
+    width: 950px;
+    height: 410px;
+    margin: 20px auto auto auto;
+    overflow: auto;
+}
+
+#imgGradeImagens img{
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/*Janela modal opera imagens*/
+
+#OperaImagen{
+    width: 500px;
+    height: 300px;
+    background-color:white;
+    margin: 200px auto auto auto;
+    text-align: center;
+    display: none;
+}
+
+#OperaImagen h2{
+    font-size: 19px;
+    position: relative;
+    top: 15px;
+    width: 450px;
+}
+
+#OperaImagen img{
+    margin-top: 30px;
+}
+
+#botoesModalOperaImagen{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#botoesModalOperaImagen input[type="submit"]{
+    width: 200px;
+    height: 40px;
+}
+
+/*Janela modal resuldato do upload*/
+
+#infoUploadImagens{
+    display: none;
+    width: 650px;
+    height: 340px;
+    background-color:white;
+    margin: 170px auto auto auto;
+    text-align: center;
+}
+
+#infoUploadImagens h2{
+    font-size: 19px;
+    position: relative;
+    top: 30px;
+}
+
+#resultadoUpload{
+    width: 600px;
+    height: 150px;
+    margin: 60px auto auto auto;  
+    overflow: auto;
+}
+
+#infoUploadImagens input[type="submit"]{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+}
